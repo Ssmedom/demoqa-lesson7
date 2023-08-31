@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 
-public class PracticeFormTests {
+public class RegistrationTests {
 
     @BeforeAll
     static void beforAll(){
