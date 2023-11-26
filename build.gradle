@@ -35,12 +35,11 @@ dependencies {
     )
 }
 
-def uiTest = tasks.register("RegistrationWithPageObjectTests", Test) {
-    useJUnitPlatform {
-        includeTags "UI"
+task simple_test(type: Test) {
+    useJUnitPlatform{
+        includeTags("UI")
     }
 }
-
 
 test {
     useJUnitPlatform()
