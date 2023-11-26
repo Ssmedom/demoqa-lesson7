@@ -2,6 +2,7 @@ package demoqa.tests;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 
@@ -21,7 +22,7 @@ public class RegistrationTests {
         Configuration.timeout = 60000;
 
     }
-
+    @Tag("UI")
     @Test
     void successfulRegistrationTest() {
         open("/automation-practice-form");
