@@ -22,7 +22,7 @@ public class RegistrationTests {
         Configuration.timeout = 60000;
 
     }
-    @Tag("UI")
+
     @Test
     void successfulRegistrationTest() {
         open("/automation-practice-form");
