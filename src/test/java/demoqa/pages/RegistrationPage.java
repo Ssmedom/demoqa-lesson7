@@ -27,7 +27,7 @@ public class RegistrationPage {
             addressInput = $("#currentAddress"),
             stateInput = $("#stateCity-wrapper"),
             cityInput = $("#stateCity-wrapper"),
-            buttonClick = $("#submit");
+            buttonClick = $("@btn btn-primary");
 
     public RegistrationPage openPage(){
         open("/automation-practice-form");
