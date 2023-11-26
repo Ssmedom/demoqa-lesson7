@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 
-@Tag("UI")
+
 public class RegistrationWithPageObjectTests extends BaseTest{
 
 
