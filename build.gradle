@@ -27,7 +27,7 @@ dependencies {
 
 }
 
-def uiTest = tasks.register("uiTests", Test) {
+def uiTest = tasks.register("UiTest", Test) {
     useJUnitPlatform {
         includeTags "UI"
     }
