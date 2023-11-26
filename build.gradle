@@ -35,6 +35,13 @@ dependencies {
     )
 }
 
+def uiTest = tasks.register("RegistrationWithPageObjectTests", Test) {
+    useJUnitPlatform {
+        includeTags "UI"
+    }
+}
+
+
 test {
     useJUnitPlatform()
     systemProperties(System.getProperties())
